@@ -48,7 +48,7 @@ const lap = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsoAAAIICAYAAAB3t
         }
     }
 }
-@media (max-width:768px){
+@media (max-width:998px){
     .container-fluid{
         .container{
             display: grid;

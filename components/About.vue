@@ -64,7 +64,7 @@ const sc = ref(
     }
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 998px) {
   .container {
     display: grid;
     grid-template-columns: 1fr;

@@ -18,49 +18,63 @@
 </template>
 
 <script setup lang="ts">
-import data from '../team.json'
+import data from "../team.json";
 </script>
 
 <style lang="scss" scoped>
-.container-fluid{
+.container-fluid {
+  margin-top: 30px;
+  background-color: #fafafa;
+  padding-top: 20px;
+  margin-bottom: -10px !important;
+  .container {
     margin-top: 30px;
-    background-color: #fafafa;
-    padding-top: 20px;
-    margin-bottom: -10px !important;
-    .container{
-        margin-top: 30px;
-        
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .members {
+      margin-bottom: 30px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 50px;
+      .member {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        .members{
-            margin-bottom: 30px;
-            display: grid;
-            grid-template-columns: repeat(5, 1fr) ;
-            gap: 50px;
-            .member{
-                .image{
-                    margin-top: 30px;
-                    width: 170px;
-                }
-                .names{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                    align-items: center;
-                }
-            }
+        .image {
+          margin-top: 30px;
+          
         }
-    }
-}
-@media (max-width:768px){
-    .container-fluid{
-        .container{
-            .members{
-                display: grid;
-                grid-template-columns:  1fr 1fr ;
-            }
+        .names {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
         }
+      }
     }
   }
+}
+@media (max-width: 998px) {
+  .container-fluid {
+    .container {
+      .members {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        place-content: center;
+        .member {
+          width: 170px;
+          margin-left:5px ;
+
+          .image{
+            width: 130px;
+          }
+        }
+      }
+    }
+  }
+}
 </style>

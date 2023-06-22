@@ -84,15 +84,21 @@
     }
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 998px) {
   .container-fluid {
     .container {
       .first {
         display: grid;
         grid-template-columns: 1fr;
-        .form {
-          width: 300px;
+        .right{
+            display: flex;
+            justify-content: center;
+            .form {
+                width: 300px;
+                
+              }
         }
+        
       }
     }
   }

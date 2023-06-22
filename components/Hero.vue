@@ -90,13 +90,14 @@ const secondImg = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAecAAAAiCAY
     
   }
 }
-@media (max-width:768px){
+@media (max-width:998px){
     .container{
-      display: grid;
+      display: flex;
+      flex-direction: column;
       grid-template-columns: 1fr;
       .right{
-        height:250px;
-        width: 350px;
+        height:300px;
+        width: 77%;
         margin-top: 50px;
         
       }
