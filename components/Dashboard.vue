@@ -7,7 +7,8 @@
             h1 Dashboard System 
             p in addition, we have developed a dashboard system to improve security and controlling the gate, this feature empowers the adminstrator to have comprehensive control. 
             .btn 
-                h5 view
+                h5 
+                    a.link(href="https://board-smartgate.onrender.com/") view
 </template>
 
 <script setup lang="ts">
@@ -19,7 +20,7 @@ const lap = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsoAAAIICAYAAAB3t
     background-color: #fafafa;
     .container{
         
-        margin-top: 30px;
+        margin-top: 50px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
@@ -37,8 +38,8 @@ const lap = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsoAAAIICAYAAAB3t
                     border:none;
                     height: 30px;
                     width: 100px;
-                    display: grid;
-                    place-content: center;
+                    display: flex;
+                    justify-content: center;
                     padding: 5px;
                     align-items: center;
                     border-radius: 20px;

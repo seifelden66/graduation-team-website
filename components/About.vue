@@ -68,6 +68,7 @@ const sc = ref(
   .container {
     display: grid;
     grid-template-columns: 1fr;
+    width: 80%;
   }
 }
 </style>

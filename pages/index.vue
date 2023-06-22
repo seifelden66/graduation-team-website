@@ -7,7 +7,8 @@
     Live/#demo
     Faqs/#faqs
     Team/#team
-    Contact
+    Contact/
+    Side/
 </template>
 
 <script setup lang="ts">

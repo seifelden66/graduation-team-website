@@ -3,26 +3,24 @@
     .containeer 
         .left 
             h2 FAQs
-            p Your quesions, answerd
+            h5 Your quesions, answerd
         .right 
-            .div(@click="toggleDropdown1") how the system will help the university 
+            .div(@click="toggleDropdown1" style="fontWeight: bold;") how the system will help the university 
                 span(style="fontWeight: bold; float: right") &#8744;
-                ul(v-if="isDropdownOpen1")
+                div(v-if="isDropdownOpen1" style="fontWeight: 400;")
                     p it will increase security
-            .div(@click="toggleDropdown2") how the system works 
+            .div(@click="toggleDropdown2" style="fontWeight: bold;") how the system works 
                 span(style="fontWeight: bold; float: right") &#8744;
-                ul(v-if="isDropdownOpen2")
+                div(v-if="isDropdownOpen2" style="fontWeight: 400;")
                     p Lorem ipsum dolor sit amet consectetur adipisicing.
-            .div(@click="toggleDropdown3") what happens when invalid car try to enter 
+            .div(@click="toggleDropdown3" style="fontWeight: bold;") what happens when invalid car try to enter 
                 span(style="fontWeight: bold; float: right") &#8744;
-                ul(v-if="isDropdownOpen3")
+                div(v-if="isDropdownOpen3" style="fontWeight: 400;")
                     p Lorem ipsum dolor sit amet.
-            .div(@click="toggleDropdown2") why raspberry pi
+            .div(@click="toggleDropdown4" style="fontWeight: bold;") why raspberry pi
                 span(style="fontWeight: bold; float: right") &#8744;
-                ul(v-if="isDropdownOpen2")
-                    li 10
-                    li 11
-                    li 12
+                div(v-if="isDropdownOpen4" style="fontWeight: 400;")
+                    Lorem ipsum dolor sit amet consectetur.
 </template>
 
 <script setup lang="ts">
@@ -58,13 +56,19 @@ const toggleDropdown4 = () => {
     .containeer{
         display: flex;
         justify-content: space-between;
+        margin: 40px;
+        .left{
+            
+            transform: scaleX(1.2);
+        }
         .right{
+            
             .div{
                 padding: 8px;
                 margin-top: 5px;
                 cursor: pointer;
                 border-bottom: solid 1px black;
-                width: 350px;
+                width: 550px;
             }
         }
     }
@@ -74,7 +78,19 @@ const toggleDropdown4 = () => {
         .containeer{
             display: grid;
             grid-template-columns: 1fr;
-            
+            .left{
+                transform: scaleX(1);
+            }
+            .right{
+            margin-top: 20px;
+                .div{
+                    padding: 8px;
+                    margin-top: 5px;
+                    cursor: pointer;
+                    border-bottom: solid 1px black;
+                    width: 250px;
+                }
+            }
           }
     }
   }
