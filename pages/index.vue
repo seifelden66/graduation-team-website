@@ -1,50 +1,64 @@
 <template lang=pug>
 .container-fluid
-    Navbar/
-    #hero
-        Hero/
-    #about
-        About/
-    #dashboard
-        Dashboard/
-    #demo
-        Live/
-    #faqs
-        Faqs/
-    #team
-        Team/
-    #contact
-        Contact/
-    Side/
+    .nav
+        Navbar/
+    .cont
+        #hero
+            Hero/
+        #about
+            About/
+        #dashboard
+            Dashboard/
+        #demo
+            Live/
+        #faqs
+            Faqs/
+        #team
+            Team/
+        #contact
+            Contact/
+        Side/
 </template>
 
 <script setup lang="ts">
 
 </script>
 
-<style scoped>
-#hero{
-    margin-top: 150px;
+<style scoped lang="scss">
+.container-fluid{
     
-}
-#about{
-    margin: 120px auto;
-    
-}
-#dashboard{
-    margin: 120px auto;
-    
-}
-#demo{
-    margin: 120px auto;
-    
-}
-#faqs{
-    margin: 120px auto;
-    
-}
-#team{
-    margin: 120px auto;
-    
+    .cont{
+        
+        #hero{
+            padding-top: 75px;
+            margin-top: 15px;
+            
+        }
+        #about{
+            padding-top: 85px;
+            margin-top: 15px;
+            
+        }
+        #dashboard{
+            padding-top: 75px;
+            margin-top: 15px;
+            
+        }
+        #demo{
+            padding-top: 75px;
+            margin-top: 15px;
+            
+        }
+        #faqs{
+            padding-top: 115px;
+            margin-top: 20px;
+            
+        }
+        #team{
+            padding-top: 75px;
+            margin-top: 15px;
+            
+        }
+    }
 }
 </style>

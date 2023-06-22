@@ -50,7 +50,7 @@ const toggleDropdown4 = () => {
 .container{
     
     h2{
-        
+        margin-top: 40px;
         color: #FBC75E;
     }
     .containeer{
@@ -80,9 +80,10 @@ const toggleDropdown4 = () => {
             grid-template-columns: 1fr;
             .left{
                 transform: scaleX(1);
+                margin: 20px auto;
             }
             .right{
-            margin-top: 20px;
+            margin: 20px auto;
                 .div{
                     padding: 8px;
                     margin-top: 5px;

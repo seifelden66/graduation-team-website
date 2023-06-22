@@ -14,13 +14,13 @@
 
 <style scoped lang="scss">
 .container{
-    
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     .frame{
         width: 97%;
-        
+        margin-top: 20px ;
         height: 350px;
     }
 }

@@ -36,7 +36,7 @@ const secondImg = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAecAAAAiCAY
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  margin: 40px auto;
   .left{
     
     font-size: larger;
@@ -92,7 +92,7 @@ const secondImg = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAecAAAAiCAY
 }
 @media (max-width:998px){
     .container{
-      margin-top: 150px;
+      margin-top: 70px;
       display: flex;
       flex-direction: column;
       grid-template-columns: 1fr;

@@ -40,7 +40,7 @@ const sc = ref(
 <style scoped lang="scss">
 .container {
 
- 
+  margin: 40px auto ;
   p {
     color: #a6a6a6;
   }
@@ -48,13 +48,15 @@ const sc = ref(
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   .left {
-    
+    p {
+      margin-top: 20px;
+    }
   }
   .right {
     section {
       display: flex;
       align-items: baseline;
-      
+      margin-top: 15px;
       .le {
         margin-right: 10px;
         height: 30px;

@@ -36,11 +36,11 @@ const imageSrc = ref(
     align-items: center;
     .left {
   
-      width: 140px;
+      width: 120px;
       img {
         height: 100%;
         width: 100%;
-        transform: scaleY(1.1);
+        
       }
     }
     .right{

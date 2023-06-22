@@ -10,6 +10,7 @@ div
                 nuxt-link.link(to="#demo") Live Demo
                 nuxt-link.link(to="#faqs") FAQs
                 nuxt-link.link(to="#team") Our Team
+                nuxt-link.link(to="#contact") contact us
 </template>
 
 <script setup lang="ts">
