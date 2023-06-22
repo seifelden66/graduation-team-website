@@ -1,7 +1,13 @@
-<template>
-    <div>
-        <h1>we are</h1>
-    </div>
+<template lang=pug>
+.container-fluid
+    Navbar/
+    Hero/
+    About/#about
+    Dashboard/#dashboard
+    Live/#demo
+    Faqs/#faqs
+    Team/#team
+    Contact
 </template>
 
 <script setup lang="ts">
