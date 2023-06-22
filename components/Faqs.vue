@@ -8,21 +8,15 @@
             .div(@click="toggleDropdown1") how the system will help the university 
                 span(style="fontWeight: bold; float: right") &#8744;
                 ul(v-if="isDropdownOpen1")
-                    li 1
-                    li 2
-                    li 3
+                    p it will increase security
             .div(@click="toggleDropdown2") how the system works 
                 span(style="fontWeight: bold; float: right") &#8744;
                 ul(v-if="isDropdownOpen2")
-                    li 4
-                    li 5
-                    li 6
+                    p Lorem ipsum dolor sit amet consectetur adipisicing.
             .div(@click="toggleDropdown3") what happens when invalid car try to enter 
                 span(style="fontWeight: bold; float: right") &#8744;
                 ul(v-if="isDropdownOpen3")
-                    li 6
-                    li 8
-                    li 9
+                    p Lorem ipsum dolor sit amet.
             .div(@click="toggleDropdown2") why raspberry pi
                 span(style="fontWeight: bold; float: right") &#8744;
                 ul(v-if="isDropdownOpen2")
@@ -63,7 +57,7 @@ const toggleDropdown4 = () => {
     }
     .containeer{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         .right{
             .div{
                 padding: 8px;

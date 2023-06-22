@@ -19,7 +19,7 @@
     flex-direction: column;
     align-items: center;
     .frame{
-        width: 80%;
+        width: 97%;
         margin: 20px auto;
         height: 350px;
     }

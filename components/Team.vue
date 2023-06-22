@@ -37,11 +37,11 @@ import data from '../team.json'
             margin-bottom: 30px;
             display: grid;
             grid-template-columns: repeat(5, 1fr) ;
-            gap: 30px;
+            gap: 50px;
             .member{
                 .image{
                     margin-top: 30px;
-                    width: 150px;
+                    width: 170px;
                 }
                 .names{
                     display: flex;
