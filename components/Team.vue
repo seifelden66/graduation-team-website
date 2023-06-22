@@ -23,18 +23,18 @@ import data from "../team.json";
 
 <style lang="scss" scoped>
 .container-fluid {
-  margin-top: 30px;
+  
   background-color: #fafafa;
-  padding-top: 20px;
-  margin-bottom: -10px !important;
+  
+
   .container {
-    margin-top: 30px;
+    
 
     display: flex;
     flex-direction: column;
     align-items: center;
     .members {
-      margin-bottom: 30px;
+      
       display: grid;
       grid-template-columns: repeat(5, 1fr);
       gap: 50px;

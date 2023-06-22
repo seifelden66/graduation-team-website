@@ -20,7 +20,7 @@ const lap = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsoAAAIICAYAAAB3t
     background-color: #fafafa;
     .container{
         
-        margin-top: 50px;
+
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;

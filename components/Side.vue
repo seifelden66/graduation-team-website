@@ -4,7 +4,7 @@ div
         .side(v-if="side")
             .items
                 button(@click="close") x
-                nuxt-link.link(to="#") Home
+                nuxt-link.link(to="#hero") Home
                 nuxt-link.link(to="#about") About Us
                 nuxt-link.link(to="#dashboard") Dashboard
                 nuxt-link.link(to="#demo") Live Demo

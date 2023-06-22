@@ -48,15 +48,15 @@ const toggleDropdown4 = () => {
 
 <style lang="scss" scoped>
 .container{
-    margin-top: 30px;
+    
     h2{
-        margin-top: 30px;
+        
         color: #FBC75E;
     }
     .containeer{
         display: flex;
         justify-content: space-between;
-        margin: 40px;
+        
         .left{
             
             transform: scaleX(1.2);

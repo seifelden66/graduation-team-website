@@ -36,7 +36,7 @@ const secondImg = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAecAAAAiCAY
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 120px ;
+  
   .left{
     
     font-size: larger;
