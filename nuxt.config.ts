@@ -12,6 +12,7 @@ export default defineNuxtConfig({
               rel: 'preconnect',
               href: 'https://fonts.googleapis.com'
             },
+            { rel: 'stylesheet', href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" },
             {
               rel: 'preconnect',
               href: 'https://fonts.gstatic.com" crossorigin'

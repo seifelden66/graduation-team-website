@@ -35,12 +35,14 @@
 .container-fluid {
   background-color: #161c28;
   color: white;
-  padding-top: 40px;
+  padding: 40px;
   .container {
+  
     .first {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 20px;
+      margin-bottom: 20px;
       .right {
         .form {
           float: right;
