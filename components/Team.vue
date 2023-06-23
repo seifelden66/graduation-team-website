@@ -4,6 +4,7 @@
         h1 
             span Meet the 
             span(style="color: #FBC75E;") team 
+        p and their rules
         .members
             .member(v-for="i in data")
                 .image
@@ -29,6 +30,7 @@ import data from "../team.json";
 
   .container {
     margin-top: 30px;
+    
 
     display: flex;
     flex-direction: column;

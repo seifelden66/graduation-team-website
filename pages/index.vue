@@ -42,7 +42,7 @@ onMounted(() => {
       stagger: 0.1,
       duration: 0.2,
       scrollTrigger: {
-        start:'top 60%',
+        start:'top 63%',
         end:'bottom 98%',
         trigger: box,
         scrub: true,

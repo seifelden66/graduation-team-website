@@ -22,9 +22,9 @@
         .second 
             h1(style="color: #FBC75E;") Smart Gate
             p(style="color: #A6A6A6; fontWeight: 300;") ANPR System for Univeristy
-            h4 2023
-            p 
-                span faculty of Artificial intlligence and computer science 
+            h5 2023
+            p(style="fontWeight: 400;") 
+                span Faculty of Artificial Intlligence & Computer Science 
                 span(style="float:right;") Damietta university
 
 </template>
@@ -35,7 +35,7 @@
 .container-fluid {
   background-color: #161c28;
   color: white;
-  padding: 40px;
+  padding: 25px;
   .container {
   
     .first {

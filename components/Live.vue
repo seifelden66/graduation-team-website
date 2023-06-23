@@ -19,9 +19,9 @@
     flex-direction: column;
     align-items: center;
     .frame{
-        width: 97%;
+        width: 80%;
         margin-top: 20px ;
-        height: 350px;
+        height: 400px;
     }
 }
 @media (max-width:998px) {

@@ -58,7 +58,7 @@ const toggleDropdown4 = () => {
         justify-content: space-between;
         
         .left{
-            
+            margin-left: 20px;
             transform: scaleX(1.2);
         }
         .right{
