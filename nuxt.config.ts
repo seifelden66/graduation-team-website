@@ -2,7 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["bootstrap/dist/css/bootstrap.min.css", "assets/styles/main.scss"],
- 
+  build: {
+    transpile: ['gsap'],
+  },
     app: {
         pageTransition: { name: 'page', mode: 'out-in' },
         head: {
