@@ -42,7 +42,7 @@ onMounted(() => {
       stagger: 0.1,
       duration: 0.2,
       scrollTrigger: {
-        start:'top 50%',
+        start:'top 65%',
         end:'bottom 100%',
         trigger: box,
         scrub: true,
@@ -79,8 +79,8 @@ onMounted(() => {
       margin-top: 10px;
     }
     #team {
-      padding-top: 85px;
-      margin-top: 10px;
+      padding-top: 100px;
+      
     }
   }
 }
