@@ -26,6 +26,9 @@
 }
 @media (max-width:998px) {
     .container{
+        h1{
+            text-align: center;
+        }
         .frame{
             width: 80%;
         }
