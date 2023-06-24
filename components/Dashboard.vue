@@ -36,11 +36,10 @@ const lap = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsoAAAIICAYAAAB3t
                     background: #FBC75E;
                     color: white;
                     border:none;
-                    height: 30px;
                     width: 100px;
+                    padding: 0.5rem 1.2rem;
                     display: flex;
                     justify-content: center;
-                    padding: 5px;
                     align-items: center;
                     border-radius: 20px;
                     margin-top: 20px;
@@ -50,6 +49,13 @@ const lap = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsoAAAIICAYAAAB3t
     }
 }
 @media (max-width:998px){
+    .right {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+      }
     .container-fluid{
         .container{
             display: grid;

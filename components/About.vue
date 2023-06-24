@@ -48,25 +48,46 @@ const sc = ref(
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   .left {
+    padding: 0 3rem;
     p {
-      margin-top: 20px;
+      margin-top: 30px;
     }
   }
   .right {
+    .rig {
+      p {
+        margin-top: 0.5rem;
+      }
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 50px;
     section {
       display: flex;
-      align-items: baseline;
-      margin-top: 15px;
+
       .le {
         margin-right: 10px;
-        height: 30px;
-        width: 30px;
+        height: 50px;
+        width: 50px;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 8px -3px #cccccc85;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 30px;
+        }
       }
     }
   }
 }
 @media (max-width: 998px) {
   .container {
+    margin-top: 5px;
     display: grid;
     grid-template-columns: 1fr;
     width: 80%;

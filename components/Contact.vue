@@ -37,35 +37,55 @@
   color: white;
   padding: 25px;
   .container {
-  
+    .left {
+      p {
+        color: #a6a6a6;
+        margin-top: 5px;
+      }
+    }
     .first {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 20px;
       margin: 20px auto;
+      .left{
+        margin-top: 30px;
+      }
       .right {
         .form {
           float: right;
           background: #222938;
           display: flex;
-          width: 500px;
-          padding: 2em;
+          margin-top: 20px;
+          width: 100%;
+          padding: 4em;
           flex-direction: column;
           align-items: center;
           justify-content: center;
           border-radius: 10px;
           section {
+            margin-top: 20px;
             width: 100%;
             display: flex;
             flex-direction: column;
             input {
               border-radius: 10px;
-              height: 30px;
+              // height: 30px;
+              width: 100%;
+
+              padding: 0.7rem;
               border: none;
+              margin-top: 1rem;
+            }
+            label {
+              margin-top: 1rem;
             }
             textarea {
               border-radius: 10px;
               border: none;
+              padding: 1rem;
+              margin-top: 1rem;
+              width: 100%;
             }
           }
           .btn {
@@ -85,6 +105,11 @@
       }
     }
   }
+  .second {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 @media (max-width: 998px) {
   .container-fluid {
@@ -96,7 +121,7 @@
             display: flex;
             justify-content: center;
             .form {
-                width: 300px;
+                margin: 10px auto;
                 
               }
         }

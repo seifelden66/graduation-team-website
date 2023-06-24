@@ -49,26 +49,29 @@ const toggleDropdown4 = () => {
 <style lang="scss" scoped>
 .container{
     
-    h2{
-        margin-top: 40px;
-        color: #FBC75E;
-    }
+    h2 {
+        color: #fbc75e;
+        font-size: calc(4rem + 1vw - 30px);
+      }
+      h5 {
+        margin-top: 1rem;
+      }
     .containeer{
         display: flex;
         justify-content: space-between;
         
         .left{
             margin-left: 20px;
-            transform: scaleX(1.2);
+            
         }
         .right{
             
             .div{
-                padding: 8px;
+                padding: 20px;
                 margin-top: 5px;
                 cursor: pointer;
                 border-bottom: solid 1px black;
-                width: 550px;
+                width: 650px;
             }
         }
     }
@@ -79,7 +82,7 @@ const toggleDropdown4 = () => {
             display: grid;
             grid-template-columns: 1fr;
             .left{
-                transform: scaleX(1);
+                text-align: center;
                 margin: 20px auto;
             }
             .right{

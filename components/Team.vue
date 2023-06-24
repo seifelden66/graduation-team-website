@@ -54,6 +54,7 @@ import data from "../team.json";
           flex-direction: column;
           justify-content: space-between;
           align-items: center;
+          margin-top: 1rem;
         }
       }
     }

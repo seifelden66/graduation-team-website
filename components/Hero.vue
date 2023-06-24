@@ -32,20 +32,28 @@ const secondImg = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAecAAAAiCAY
 
 <style scoped lang="scss">
 .container {
-  
+  background-color: #fafafa;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 40px auto;
   .left{
-    
+    padding: 3rem;
     font-size: larger;
     transform: scaleY(1.10);
     line-height: 25px;
-    
-    h1{
-        font-weight: 900;
-        
+    p {
+      @media (max-width: 998px) {
+        text-align: center;
+        font-size: small;
+      }
+    }
+    h1 {
+      font-weight: 600;
+      font-size: calc(4rem + 1vw - 20px);
+      @media (max-width: 998px) {
+        text-align: center;
+      }
     }
     img{
         margin-top: 20px;
@@ -56,6 +64,13 @@ const secondImg = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAecAAAAiCAY
         align-items:center;
         gap:25px;
         margin-top: 10px;
+        @media (max-width: 998px) {
+          justify-content: center;
+        }
+        @media (max-width: 420px) {
+          flex-direction: column;
+          gap: 5px;
+        }
         .btn{
             background: #FBC75E;
             color: white;
@@ -97,11 +112,14 @@ const secondImg = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAecAAAAiCAY
       flex-direction: column;
       grid-template-columns: 1fr;
       .right{
-        height:300px;
         width: 77%;
         margin-top: 50px;
-        
+        height: 100%;
       }
     }
+  }
+  a {
+    margin: 0;
+    padding: 0;
   }
 </style>
