@@ -14,6 +14,7 @@
 
 <style scoped lang="scss">
 .container{
+    padding-top: 1em;
     margin-top: 50px;
     display: flex;
     flex-direction: column;

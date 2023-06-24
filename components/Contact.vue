@@ -35,7 +35,7 @@
 .container-fluid {
   background-color: #161c28;
   color: white;
-  padding: 25px;
+  padding-top: 5em;
   .container {
     .left {
       p {
@@ -59,6 +59,7 @@
           margin-top: 20px;
           width: 100%;
           padding: 4em;
+          
           flex-direction: column;
           align-items: center;
           justify-content: center;

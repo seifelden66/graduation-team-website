@@ -57,6 +57,7 @@ const lap = ref('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsoAAAIICAYAAAB3t
         margin-bottom: 10px;
       }
     .container-fluid{
+        padding-top: 1em;
         .container{
             display: grid;
             grid-template-columns: 1fr;

@@ -24,9 +24,10 @@ import data from "../team.json";
 
 <style lang="scss" scoped>
 .container-fluid {
+  
   margin-top: 40px;
   background-color: #fafafa;
-  padding-top: 20px;
+  
 
   .container {
     margin-top: 30px;
@@ -62,6 +63,8 @@ import data from "../team.json";
 }
 @media (max-width: 998px) {
   .container-fluid {
+    padding-top: 2.3em;
+    margin-top: 3.5em;
     .container {
       .members {
         display: grid;

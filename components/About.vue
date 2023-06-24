@@ -87,6 +87,7 @@ const sc = ref(
 }
 @media (max-width: 998px) {
   .container {
+    padding-top: 1.5rem;
     margin-top: 5px;
     display: grid;
     grid-template-columns: 1fr;
